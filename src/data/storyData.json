@@ -1,8 +1,8 @@
 {
   "hero": {
-    "title": "THE JOURNEY",
-    "subtitle": "A Story of Love, Sacrifice, Dreams, and Family",
-    "description": "An intimate, cinematic chronicle of a lifelong voyage—from innocent childhood curiosity to standing proud with a Computer Science diploma. A tribute to the two extraordinary parents whose unconditional sacrifices built every single milestone along the way.",
+    "title": "THE COLLEGE JOURNEY",
+    "subtitle": "A University Story of Grit, Growth, Sacrifices, and Victory",
+    "description": "An intimate, cinematic chronicle of a college odyssey—from freshman campus orientation and late-night library study sessions to standing proud with a Computer Science diploma. A tribute to Mom & Dad whose unconditional support built every milestone.",
     "graduationDate": "Class of 2026",
     "degree": "Bachelor of Science in Computer Science",
     "university": "State University of Technology",
@@ -11,286 +11,286 @@
   "welcome": {
     "title": "Welcome, Mom and Dad",
     "subtitle": "Before we begin this journey, I'd like to thank you from the bottom of my heart.",
-    "greeting": "Tonight, we are not just looking back at school years or exam scores. We are watching the story of our family—the quiet mornings, the sleepless nights, the sacrifices you never talked about, and the love that guided every step I took.",
-    "quote": "“To the world, you may be two people. But to me, you are the entire world that made this diploma possible.”"
+    "greeting": "Tonight, we are looking back at the university years—the campus mornings, the late-night library marathons, the exam pressures, and the sacrifices you made to keep my college dreams alive.",
+    "quote": "“To the world, you may be two people. But to me, you are the entire world that made this degree possible.”"
   },
   "episodes": [
     {
       "id": 1,
-      "slug": "the-beginning",
-      "title": "Episode 1: The Beginning",
-      "subtitle": "Birth, Childhood, and First Dreams",
+      "slug": "freshman-year",
+      "title": "Episode 1: Freshman Year",
+      "subtitle": "Campus Orientation, Dorm Life & New Horizons",
       "duration": "14m",
-      "year": "Early Years",
+      "year": "Year 1",
       "matchScore": "99% Match",
-      "thumbnail": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80",
-      "heroImage": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1920&q=85",
-      "summary": "Every great journey starts with quiet love. From my first steps in a warm home to dreaming about what the future holds under starry nights.",
+      "thumbnail": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1920&q=85",
+      "summary": "Stepping onto the university campus for the first time—setting up the dorm room, attending freshman orientation, and writing the first 'Hello World' in computer science lab.",
       "fullStory": [
-        "Before I ever wrote a line of code or sat in a university lecture hall, I was a child wrapped in the safety of your arms. Mom, your gentle touch healed every scrape. Dad, your strong hands made me feel like I could touch the sky whenever you held me high.",
-        "Our early home was filled with simple joys. We didn't have luxury, but we had warmth, laughter, and dinner together every single night. You taught me to be curious about how things worked—taking apart small toys, asking endless questions, and dreaming bigger than our small living room.",
-        "Looking back at those childhood photos, I realize that my confidence today was forged in those early years. You made me feel safe enough to dream, and loved enough to try."
+        "Freshman year began with the excitement and nerves of stepping into a massive university campus. Unpacking bags in the dorm room, seeing the lecture halls, and holding my schedule felt like entering a brand new world.",
+        "Mom, you helped me organize my desk and packed homemade food so I wouldn't miss home. Dad, your firm handshake before driving away gave me the quiet confidence that I belonged here.",
+        "From the first Computer Science 101 lecture to making campus friends over late-night coffee, freshman year laid the foundation for everything that was to come."
       ],
       "timeline": [
         {
-          "year": "Year 1",
-          "title": "First Steps & First Words",
-          "description": "Surrounded by family, taking tiny hesitant steps towards Mom's outstretched arms."
+          "year": "Freshman Fall",
+          "title": "Campus Orientation & Move-In",
+          "description": "Moving into the university dorms with Mom & Dad's help and exploring campus quad."
         },
         {
-          "year": "Year 5",
-          "title": "Curious Mind Unlocked",
-          "description": "Asking Dad 100 questions a day about stars, machines, and why the sky turns red at dusk."
+          "year": "Freshman Winter",
+          "title": "First Coding Lab & 'Hello World'",
+          "description": "Writing my first C++ program in the campus computer lab and seeing code run."
         },
         {
-          "year": "Year 8",
-          "title": "First Family Road Trip",
-          "description": "Packed in the family car with homemade sandwiches, laughing and singing all the way."
+          "year": "Freshman Spring",
+          "title": "First College Finals Passed",
+          "description": "Conquering first semester university exams and calling home to share top marks."
         }
       ],
       "quotes": [
         {
-          "text": "Never be afraid to dream big, my child. We will always be right behind you.",
+          "text": "Work hard, stay focused, and remember why you started.",
           "author": "Mom"
         },
         {
-          "text": "Work hard, stay honest, and respect everyone you meet.",
+          "text": "University opens doors, but your character determines how far you walk.",
           "author": "Dad"
         }
       ],
       "memories": [
         {
-          "title": "The Old Family Living Room",
-          "description": "Playing with wooden blocks while Mom cooked dinner and Dad listened to the evening news.",
-          "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=600&q=80"
+          "title": "Dorm Room Desk Setup",
+          "description": "First college study desk loaded with textbooks, notebooks, and a picture of Mom & Dad.",
+          "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80"
         },
         {
-          "title": "Bedtime Stories",
-          "description": "Mom reading stories until I fell asleep, dreaming of far-off adventures.",
-          "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80"
+          "title": "Campus Library Quad",
+          "description": "Walking across campus under autumn trees between morning lectures.",
+          "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80"
         }
       ]
     },
     {
       "id": 2,
-      "slug": "growing-up",
-      "title": "Episode 2: Growing Up",
-      "subtitle": "School Days, Friendships, and Character",
+      "slug": "sophomore-grind",
+      "title": "Episode 2: Sophomore Year",
+      "subtitle": "Data Structures, Hackathons & Late-Night Study Groups",
       "duration": "16m",
-      "year": "School Years",
+      "year": "Year 2",
       "matchScore": "98% Match",
-      "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80",
-      "heroImage": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1920&q=85",
-      "summary": "Navigating elementary and high school—discovering passions, forging lifelong friendships, and learning the value of discipline from family guidance.",
+      "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=85",
+      "summary": "Diving deep into Computer Science—tackling Data Structures & Algorithms, joining university tech clubs, and competing in 24-hour hackathons with classmates.",
       "fullStory": [
-        "School years brought new challenges: early morning alarm clocks, backpack straps digging into shoulders, science fairs, and math exams. Mom woke up early every single morning to prepare warm meals and make sure my uniform was pressed.",
-        "Dad showed me what discipline meant. Even after a 12-hour workday, he would sit down at the kitchen table to help me check my math homework, never showing an ounce of fatigue.",
-        "Through high school, when self-doubt started creeping in and peer pressure felt heavy, your moral compass kept me grounded. You taught me that true strength isn't being the loudest in the room, but being the most resilient and kind."
+        "Sophomore year brought a significant leap in academic intensity. Late nights at the university library became second nature as algorithms, web dev, and database systems filled my timetable.",
+        "I formed a close group of college friends. We spent weekends at 24-hour campus hackathons, building web apps, debugging code together, and sharing late-night pizza.",
+        "Even when academic pressure peaked, calls from home were my anchor. Dad reminded me to stay disciplined, while Mom ensured I was eating properly and resting."
       ],
       "timeline": [
         {
-          "year": "Grade 6",
-          "title": "Science Fair Champion",
-          "description": "Built a working solar model with Dad's help in the garage until midnight."
+          "year": "Sophomore Fall",
+          "title": "First 24-Hour Campus Hackathon",
+          "description": "Building a full web application overnight with college teammates and winning Best UI."
         },
         {
-          "year": "Grade 9",
-          "title": "Entering High School",
-          "description": "New environment, making true friends, and discovering a fascination for computer logic."
+          "year": "Sophomore Winter",
+          "title": "Data Structures & Algorithms",
+          "description": "Surviving the hardest course of the semester through relentless library study sessions."
         },
         {
-          "year": "Grade 12",
-          "title": "High School Graduation",
-          "description": "Standing on stage receiving honors, seeing Mom wiping tears of joy in the second row."
+          "year": "Sophomore Spring",
+          "title": "Joining Tech Student Society",
+          "description": "Leading web workshops for junior college students and building software projects."
         }
       ],
       "quotes": [
         {
-          "text": "Your education is something no one can ever take away from you.",
+          "text": "Every line of code you learn is an investment in your future.",
           "author": "Dad"
         },
         {
-          "text": "Always do your best, and leave the rest to God.",
+          "text": "Don't skip meals or sleep too late, my child. Take care of yourself.",
           "author": "Mom"
         }
       ],
       "memories": [
         {
-          "title": "Late Night Homework Sessions",
-          "description": "Mom bringing hot tea and fruit while I studied for final exams.",
-          "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=600&q=80"
+          "title": "University Library Marathons",
+          "description": "Stacks of books, laptop chargers everywhere, and endless cups of coffee.",
+          "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=600&q=80"
         },
         {
-          "title": "High School Band & Friends",
-          "description": "Laughing in school hallways with friends who became brothers.",
-          "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80"
+          "title": "College Study Squad",
+          "description": "Collaborating on whiteboard logic problems with college classmates.",
+          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80"
         }
       ]
     },
     {
       "id": 3,
-      "slug": "the-hardest-chapter",
-      "title": "Episode 3: The Hardest Chapter",
-      "subtitle": "College, Stress, Financial Struggles & Self-Doubt",
+      "slug": "junior-year-struggle",
+      "title": "Episode 3: The Hardest Semester",
+      "subtitle": "Junior Stress, Financial Sacrifice & Family Support",
       "duration": "18m",
-      "year": "University Life",
+      "year": "Year 3",
       "matchScore": "99% Match",
       "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
       "heroImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1920&q=85",
-      "summary": "The raw, emotional valley of the journey. Navigating university tuition, brutal exam weeks, late-night breakdowns, and finding hope when giving up felt tempting.",
+      "summary": "The raw, emotional valley of the college journey. Managing tuition costs, brutal exam weeks, late-night breakdowns, and finding hope through family love.",
       "fullStory": [
-        "University was the hardest test of my life. The workload was relentless, data structures and algorithms felt impossible at times, and financial burdens weighed heavily on our family. I watched how hard Mom and Dad worked to pay for my tuition, sacrificing their own needs so I wouldn't have to drop out.",
-        "There were nights when code refused to compile, thesis deadlines loomed, and tears filled my eyes at 3:00 AM. I felt the crushing weight of wanting to make you proud and fearing I might fall short.",
-        "In those dark moments, a phone call from home was my lifeline. 'Eat well, don't stress too much, we believe in you.' Those simple words gave me the courage to pick up my laptop and keep pushing forward."
+        "Junior year was the most demanding chapter of college. Complex software engineering courses, system architecture, and impending senior thesis prep created intense pressure.",
+        "Financial burdens weighed heavily on our family. I saw how hard Mom and Dad worked to cover my tuition fees, quietly sacrificing their own needs so I could stay enrolled without stress.",
+        "There were nights when code broke at 3 AM and exhaustion set in. But knowing how much Mom and Dad sacrificed gave me the strength to wipe away tears, pick up my laptop, and keep grinding."
       ],
       "timeline": [
         {
-          "year": "Semester 2",
-          "title": "The Data Structures Wall",
-          "description": "Failing a midterm exam, feeling crushed, then studying 8 hours a day to pass with top marks."
+          "year": "Junior Fall",
+          "title": "System Architecture Midterms",
+          "description": "Pushing through 5 major exams in one week while maintaining top GPA."
         },
         {
-          "year": "Semester 5",
-          "title": "Financial Crunch",
-          "description": "Seeing Mom secretly sell her jewelry to cover tuition fees—a moment that changed my work ethic forever."
+          "year": "Junior Winter",
+          "title": "Tuition Relief & Sacrifice",
+          "description": "Mom & Dad making quiet sacrifices to cover semester fees—a moment that redefined my drive."
         },
         {
-          "year": "Semester 7",
-          "title": "Thesis Defense Crunch",
-          "description": "72 sleepless hours coding the final capstone engine, fueled by coffee and family prayers."
+          "year": "Junior Spring",
+          "title": "Senior Capstone Project Proposal",
+          "description": "Getting thesis proposal approved by university faculty committee."
         }
       ],
       "quotes": [
         {
-          "text": "We didn't come this far to only come this far. You can do this.",
+          "text": "We didn't come this far to only come this far. Keep pushing, you are almost there.",
           "author": "Mom"
         },
         {
-          "text": "A hard chapter is not the end of the book. Keep turning the page.",
+          "text": "Pressure makes diamonds. Focus on your work, we have your back.",
           "author": "Dad"
         }
       ],
       "memories": [
         {
-          "title": "3 AM Desk Setup",
-          "description": "Cold coffee cups, stack overflow tabs open, and sticky notes of hope.",
+          "title": "Late Night Desk Setup",
+          "description": "Cold coffee, multiple terminal windows, and sticky notes of encouragement.",
           "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80"
         },
         {
-          "title": "The Care Package",
-          "description": "Opening a box sent from home containing my favorite snacks and a handwritten note from Mom.",
+          "title": "Care Package From Home",
+          "description": "Opening a box of home snacks and a handwritten note sent during exam week.",
           "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=600&q=80"
         }
       ]
     },
     {
       "id": 4,
-      "slug": "the-programmer",
-      "title": "Episode 4: The Programmer",
-      "subtitle": "Mastering Code, Building Projects & Finding Purpose",
+      "slug": "senior-year-mastery",
+      "title": "Episode 4: Senior Year Mastery",
+      "subtitle": "Capstone Project, Modern Web Stack & Tech Purpose",
       "duration": "15m",
-      "year": "Tech Odyssey",
+      "year": "Year 4",
       "matchScore": "97% Match",
       "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
       "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1920&q=85",
-      "summary": "From printing 'Hello World' in basic HTML to building full-stack web applications, React architectures, and elegant user interfaces.",
+      "summary": "Mastering modern web development—building React component architectures, state management, UI design systems, and completing the senior capstone thesis.",
       "fullStory": [
-        "Programming started as a curious hobby—learning HTML tags in a text editor and watching text change color on a screen. But as I mastered JavaScript, TypeScript, React, and modern UI engineering, it turned into my true craft.",
-        "I spent hundreds of weekends building applications, debugging state management issues, creating responsive design systems, and learning how technology can touch human emotions.",
-        "This very website is proof of that transformation. Every line of code, every motion curve, every glassmorphic element was crafted with the skills I built over these years—built specifically to honor the two people who made me who I am."
+        "Senior year was where all the college years came together. From theoretical computer science to building production-ready web applications, code became my craft.",
+        "I spent senior semester engineering complex web platforms, refining UI/UX designs, and defense-testing software architectures.",
+        "Building this very Netflix-themed application was the ultimate milestone—crafted with every frontend skill learned throughout college to honor Mom and Dad."
       ],
       "timeline": [
         {
-          "year": "Phase 1",
-          "title": "Hello World & Web Basics",
-          "description": "Mastering HTML, CSS, and basic JavaScript. Creating my very first web layout."
+          "year": "Senior Fall",
+          "title": "Senior Thesis Engineering",
+          "description": "Developing full-stack web architectures and responsive frontend design systems."
         },
         {
-          "year": "Phase 2",
-          "title": "React & Full-Stack Awakening",
-          "description": "Learning modern component state, hooks, APIs, and scalable component architecture."
+          "year": "Senior Winter",
+          "title": "Thesis Defense Success",
+          "description": "Presenting senior capstone before university faculty panel and scoring top distinction."
         },
         {
-          "year": "Phase 3",
-          "title": "Senior Frontend Craftsmanship",
-          "description": "Combining UX design, motion graphics, GSAP, and Tailwind CSS to craft world-class web experiences."
+          "year": "Senior Spring",
+          "title": "Final University Audits Passed",
+          "description": "Completing all degree requirements for Bachelor of Science in Computer Science."
         }
       ],
       "quotes": [
         {
-          "text": "Code is just logic, but when you build it with love, it becomes art.",
+          "text": "Code is logic, but when built with passion and gratitude, it becomes art.",
           "author": "Self Reflection"
         },
         {
-          "text": "Whatever you choose to build in life, build it with integrity.",
+          "text": "Build your career with integrity and excellence.",
           "author": "Dad"
         }
       ],
       "memories": [
         {
-          "title": "First Deployed Website",
-          "description": "Sending the live link to Mom and Dad on WhatsApp and showing them my name online.",
+          "title": "Senior Capstone Presentation",
+          "description": "Presenting software project live on university stage to faculty & peers.",
           "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80"
         },
         {
-          "title": "Late Night Hackathon",
-          "description": "Building solutions with teammates, winning best UI design award.",
-          "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80"
+          "title": "Showing Code to Parents",
+          "description": "Showing Mom & Dad my deployed web applications on laptop for the first time.",
+          "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80"
         }
       ]
     },
     {
       "id": 5,
-      "slug": "graduation",
-      "title": "Episode 5: Graduation Day",
-      "subtitle": "The Triumphant Summit & Shared Victory",
+      "slug": "graduation-day",
+      "title": "Episode 5: Commencement Day",
+      "subtitle": "Cap & Gown, Diploma Honor & Shared Victory",
       "duration": "20m",
       "year": "2026",
       "matchScore": "100% Match",
       "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
       "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=85",
-      "summary": "Walking across the stage in black gown and cap. The culmination of 16+ years of education, culminating in tears of joy, family hugs, and lifelong pride.",
+      "summary": "Walking across the university commencement stage in black cap and gown, receiving the Computer Science diploma, and celebrating shared victory with Mom & Dad.",
       "fullStory": [
-        "The morning of Graduation Day arrived under a bright blue sky. Fitting into the black velvet cap and gown felt surreal. Sixteen years of waking up, studying, testing, failing, and persevering led to this single morning.",
-        "As my name was announced over the auditorium loudspeakers and I stepped onto the main stage, I didn't look at the university dean or the thousands of spectators. I scanned the rows until my eyes met yours.",
-        "Seeing Mom holding her tissue and Dad standing with his head held high, beaming with unconditional pride—that was my real diploma. This milestone isn't mine alone. It is OUR victory."
+        "Graduation morning arrived under a bright blue sky. Fitting into the graduation cap and gown felt surreal—the culmination of 4 years of college dedication.",
+        "As my name was called over auditorium loudspeakers and I stepped onto the main stage, I looked into the audience to see Mom holding back tears of joy and Dad standing proud.",
+        "Receiving the degree scroll and turning the tassel was our shared victory. This diploma belongs to Mom and Dad just as much as it belongs to me."
       ],
       "timeline": [
         {
-          "year": "8:00 AM",
-          "title": "Robing & Cap Fitting",
-          "description": "Mom adjusting the graduation hood and pin with tears in her eyes."
+          "year": "8:30 AM",
+          "title": "Robing & Cap Adjustment",
+          "description": "Mom & Dad adjusting the graduation hood and tassel on campus quad."
         },
         {
           "year": "10:30 AM",
-          "title": "The Stage Walk",
-          "description": "Hearing my name called, receiving the degree scroll, and raising it high for Mom & Dad."
+          "title": "Stage Commencement Walk",
+          "description": "Hearing name called, receiving degree scroll, and raising it high for Mom & Dad."
         },
         {
           "year": "12:00 PM",
-          "title": "The Family Embrace",
-          "description": "Tossing caps into the air and running straight into Mom and Dad's warm arms."
+          "title": "Tassel Turn & Family Embrace",
+          "description": "Tossing graduation caps into the air and running into Mom & Dad's arms."
         }
       ],
       "quotes": [
         {
-          "text": "My son, seeing you graduate today is the proudest moment of my entire life.",
+          "text": "Seeing you graduate today is the proudest moment of my life.",
           "author": "Mom"
         },
         {
-          "text": "You did it. Everything we sacrificed was worth every single second for this day.",
+          "text": "You did it. Every sacrifice we made was worth it for this moment.",
           "author": "Dad"
         }
       ],
       "memories": [
         {
-          "title": "The Cap Toss",
-          "description": "Graduation caps floating in the air under bright sunshine.",
+          "title": "Graduation Cap Toss",
+          "description": "Caps flying into the sunshine over the university commencement arena.",
           "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=600&q=80"
         },
         {
-          "title": "Holding the Diploma",
-          "description": "Placing the diploma in Mom and Dad's hands—where it truly belongs.",
+          "title": "Diploma in Parents' Hands",
+          "description": "Handing the Computer Science diploma to Mom & Dad on campus grounds.",
           "image": "https://images.unsplash.com/photo-1627556592933-ffe29df8944d?auto=format&fit=crop&w=600&q=80"
         }
       ]
@@ -300,61 +300,59 @@
     {
       "id": "mom",
       "name": "Mom",
-      "role": "Executive Producer of My Life",
-      "subtitle": "The Heart, Comfort, and Endless Prayer",
+      "role": "Executive Producer of My Journey",
+      "subtitle": "Endless Prayers, Warmth, and Support",
       "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
       "heroImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80",
       "relationship": "Mother",
-      "bio": "The backbone of our home. Her unconditional love provided warmth during cold winter study nights, her home-cooked meals nourished my body, and her quiet prayers gave me strength when I felt weak.",
-      "favoriteMemory": "When I was sick during exam week in high school, Mom stayed up all night sitting beside my bed with cold compresses, telling me everything would be alright.",
-      "thankYouMessage": "Mom, thank you for every quiet sacrifice you made without complaint. You gave up your own dreams so mine could flourish.",
+      "bio": "The heart of our family. Her unconditional love provided warmth during stressful college exam seasons, and her quiet prayers gave me strength throughout university.",
+      "favoriteMemory": "When college finals felt overwhelming, Mom called me every evening just to remind me to eat well and rest.",
+      "thankYouMessage": "Mom, thank you for every sacrifice you made for my education. Your love made this diploma possible.",
       "photos": [
-        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80"
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80"
       ]
     },
     {
       "id": "dad",
       "name": "Dad",
-      "role": "Pillar of Strength & Mentor",
-      "subtitle": "The Work Ethic, Guidance, and quiet Hero",
+      "role": "Pillar of Strength & Guidance",
+      "subtitle": "Work Ethic, Integrity, and Leadership",
       "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
       "heroImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
       "relationship": "Father",
-      "bio": "A man of action, integrity, and relentless determination. Dad taught me that a person's worth is defined by how hard they work for the people they love.",
-      "favoriteMemory": "Dad taking me to buy my very first computer monitor, counting saved cash at the counter with a proud smile on his face.",
-      "thankYouMessage": "Dad, thank you for being my anchor. Your calloused hands and steadfast spirit taught me how to stand tall in any storm.",
+      "bio": "A man of integrity and relentless work ethic. Dad taught me that perseverance and discipline can conquer any academic or life challenge.",
+      "favoriteMemory": "Dad driving 3 hours to campus just to bring my laptop charger when it broke before midterms.",
+      "thankYouMessage": "Dad, thank you for being my hero. Your hard work gave me the opportunity to pursue higher education.",
       "photos": [
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80"
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
       ]
     },
     {
-      "id": "sibling",
-      "name": "My Sibling",
-      "role": "Co-Star & Lifelong Friend",
-      "subtitle": "Laughter, Partner in Crime, and Support",
+      "id": "family",
+      "name": "Family",
+      "role": "Co-Stars & Cheering Squad",
+      "subtitle": "Laughter, Support, and Unity",
       "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
       "heroImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80",
-      "relationship": "Sibling",
-      "bio": "My constant companion through childhood games, high school gossip, and late-night kitchen raids. Always ready to bring humor when stress got too high.",
-      "favoriteMemory": "Late night gaming sessions after finishing college assignments, drinking soda and sharing secret jokes.",
-      "thankYouMessage": "Thank you for keeping me sane, making me laugh, and always cheering for me when no one else was watching.",
+      "relationship": "Family",
+      "bio": "My constant support network throughout college. Always ready to celebrate course passes and bring laughter when study stress was high.",
+      "favoriteMemory": "Celebrating passing final thesis defense with a family dinner.",
+      "thankYouMessage": "Thank you for always believing in me and cheering for me every step of the way.",
       "photos": [
         "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80"
       ]
     },
     {
-      "id": "teachers",
+      "id": "professors",
       "name": "Professors & Mentors",
-      "role": "Guiding Lights & Educators",
-      "subtitle": "Knowledge, Wisdom, and Higher Standards",
+      "role": "Educators & Technical Advisors",
+      "subtitle": "Knowledge, Industry Standards & Guidance",
       "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
       "heroImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
       "relationship": "Mentors",
-      "bio": "The brilliant educators who challenged my intellect, demanded excellence, and guided my capstone project with patience.",
-      "favoriteMemory": "Office hours with my Computer Science mentor, dissecting complex algorithms on a whiteboard until the lightbulbs went off.",
-      "thankYouMessage": "Thank you for sharing your knowledge and pushing me to achieve higher standards than I thought possible.",
+      "bio": "The dedicated Computer Science faculty who challenged my intellect, guided my capstone project, and shared technical wisdom.",
+      "favoriteMemory": "Office hours with CS mentors solving complex algorithm logic on whiteboards.",
+      "thankYouMessage": "Thank you for pushing me to achieve higher standards of engineering excellence.",
       "photos": [
         "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
       ]
@@ -362,145 +360,148 @@
   ],
   "awards": [
     {
-      "id": "best-supporter",
-      "title": "Best Supporter Award",
-      "recipient": "Mom",
-      "category": "Unconditional Love & Care",
-      "iconName": "HeartHandshake",
-      "badge": "LIFETIME GOLD",
-      "description": "Awarded for preparing 5,000+ warm meals, sending 1,000+ encouragement text messages, and providing unconditional emotional shelter.",
-      "speech": "For every morning you woke up early, for every prayer whispered in silence, and for always being my safe harbor when the world was loud. This trophy belongs to Mom!",
-      "statuetteColor": "from-red-500 to-amber-500"
-    },
-    {
-      "id": "lifetime-achievement",
-      "title": "Lifetime Achievement Award",
-      "recipient": "Dad",
-      "category": "Sacrifice & Moral Leadership",
+      "id": "deans-list",
+      "title": "University Dean's Honor Roll",
+      "recipient": "Academic Distinction",
+      "category": "Academic Excellence",
       "iconName": "Trophy",
-      "badge": "LEGENDARY PILLAR",
-      "description": "Awarded for working untiringly through all weather, demonstrating honesty in every action, and leading by example.",
-      "speech": "Dad, you taught me that honor is built quietly through hard work. You sacrificed your own comfort so I could stand on a higher platform. You are my forever hero!",
-      "statuetteColor": "from-amber-400 to-yellow-600"
+      "badge": "SUMMA CUM LAUDE",
+      "description": "Awarded for maintaining top academic GPA excellence throughout consecutive university semesters in Computer Science.",
+      "speech": "Consistently recognized on the University Dean's Honor List for outstanding academic performance and dedication to higher learning.",
+      "statuetteColor": "from-amber-500 to-yellow-600",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
+      "issuer": "University Dean of Science & Tech",
+      "date": "2024 - 2026"
     },
     {
-      "id": "most-inspiring",
-      "title": "Most Inspiring Couple",
-      "recipient": "Mom & Dad Together",
-      "category": "Enduring Love & Partnership",
-      "iconName": "Sparkles",
-      "badge": "HALL OF FAME",
-      "description": "Awarded for demonstrating true partnership, weathering financial storms together, and raising a family on a foundation of faith and respect.",
-      "speech": "Together, you built a home that nurtured dreams. Seeing your love and unity gave me the courage to conquer every obstacle.",
-      "statuetteColor": "from-purple-500 to-pink-500"
-    },
-    {
-      "id": "family-mvp",
-      "title": "Family MVP Award",
-      "recipient": "Entire Family",
-      "category": "Team Spirit & Unity",
+      "id": "hackathon-winner",
+      "title": "1st Place - Tech Hackathon Champion",
+      "recipient": "Full-Stack Development",
+      "category": "Software Engineering",
       "iconName": "Crown",
-      "badge": "CHAMPIONS 2026",
-      "description": "Awarded for being the ultimate cheering squad during thesis defense, high school graduation, and every step in between.",
-      "speech": "To my entire family—we did this together! No diploma has value without the team behind it. Thank you all!",
-      "statuetteColor": "from-emerald-400 to-cyan-500"
+      "badge": "1ST PLACE CHAMPION",
+      "description": "First place winner out of 50 university software teams for engineering an innovative real-time web platform overnight.",
+      "speech": "Awarded 1st Place Trophy and Best UI Architecture in the 24-Hour Inter-University Software Development Championship.",
+      "statuetteColor": "from-red-500 to-amber-500",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+      "issuer": "National Tech Summit",
+      "date": "2025"
+    },
+    {
+      "id": "capstone-award",
+      "title": "Best Senior Thesis Capstone Project",
+      "recipient": "Software Architecture",
+      "category": "Capstone Distinction",
+      "iconName": "Sparkles",
+      "badge": "TOP CAPSTONE",
+      "description": "Recognized by the Computer Science faculty evaluation committee for outstanding frontend UI/UX engineering and system architecture.",
+      "speech": "Highest distinction awarded for the senior Computer Science capstone research and software implementation.",
+      "statuetteColor": "from-purple-500 to-pink-500",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      "issuer": "Department of Computer Science",
+      "date": "2026"
+    },
+    {
+      "id": "leadership-award",
+      "title": "College Tech Leadership Award",
+      "recipient": "Student Mentorship",
+      "category": "Student Leadership",
+      "iconName": "HeartHandshake",
+      "badge": "LEADERSHIP HONOR",
+      "description": "Awarded for organizing web development workshops, leading coding bootcamps, and mentoring junior computer science students.",
+      "speech": "Recognized for exemplary student leadership, community workshops, and dedicated mentorship across campus.",
+      "statuetteColor": "from-emerald-400 to-cyan-500",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80",
+      "issuer": "CS Student Association",
+      "date": "2025"
     }
   ],
   "behindTheScenes": [
     {
       "id": "bts-1",
-      "title": "The Midnight Desk Setup",
-      "category": "Production Blooper",
-      "caption": "Where 80% of thesis code was written between 1 AM and 4 AM.",
+      "title": "Midnight Library Coding",
+      "category": "College Grind",
+      "caption": "Where senior thesis code was engineered between 1 AM and 4 AM.",
       "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
-      "directorNote": "Notice the 4 cold coffee mugs, 23 open browser tabs, and sticky note reminding myself to 'DON'T PANIC'."
+      "directorNote": "Coffee cups, multiple terminal tabs, and sticky notes of thesis algorithms."
     },
     {
       "id": "bts-2",
-      "title": "Mom's Late Night Snacks",
+      "title": "Mom's College Care Package",
       "category": "Craft Services",
-      "caption": "The real fuel behind my Computer Science degree.",
+      "caption": "The secret fuel behind passing computer science finals.",
       "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80",
-      "directorNote": "Mom sliding sliced apples and warm tea into my room without making a sound so she wouldn't break my concentration."
+      "directorNote": "Opening home snack boxes sent to the dorm during exam week."
     },
     {
       "id": "bts-3",
-      "title": "First Time Debugging Failure",
-      "category": "Bloopers",
-      "caption": "Stared at a missing semicolon for 3 hours straight.",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-      "directorNote": "Dad walked in, looked at the screen, pointed randomly at line 42, and walked out. Surprisingly, that fixed it!"
+      "title": "Campus Hackathon Sprint",
+      "category": "Tech Competition",
+      "caption": "Building full-stack web applications overnight with teammates.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+      "directorNote": "Debugging React state hooks at 3 AM to win top UI project distinction."
     },
     {
       "id": "bts-4",
-      "title": "Cap & Gown Rehearsal",
-      "category": "Wardrobe Test",
-      "caption": "Trying on the graduation cap upside down at first.",
+      "title": "Commencement Gown Rehearsal",
+      "category": "Graduation Prep",
+      "caption": "Fitting the graduation cap and hood on campus quad.",
       "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
-      "directorNote": "Laughter filled the house as Mom tried to figure out which side the tassel went on!"
+      "directorNote": "Mom helping adjust the tassel direction before stepping into the arena."
     }
   ],
   "gallery": [
     {
       "id": "g-1",
-      "title": "First Birthday Cake",
-      "category": "childhood",
-      "url": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Cake all over my face while Mom & Dad sang happy birthday.",
-      "date": "Early Childhood",
-      "location": "Home Living Room"
+      "title": "Freshman Campus Orientation",
+      "category": "college",
+      "url": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "caption": "First day walking across the university quad.",
+      "date": "Freshman Year",
+      "location": "University Quad"
     },
     {
       "id": "g-2",
-      "title": "Elementary Science Project",
-      "category": "school",
-      "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Winning first prize with Dad's cardboard volcano project.",
-      "date": "Grade 5",
-      "location": "School Auditorium"
+      "title": "Computer Science Lab",
+      "category": "college",
+      "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1000&q=80",
+      "caption": "Coding algorithms in the university tech building.",
+      "date": "Sophomore Year",
+      "location": "CS Tech Building"
     },
     {
       "id": "g-3",
-      "title": "Family Summer Vacation",
-      "category": "family",
-      "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Watching sunset together on our favorite family trip.",
-      "date": "High School Years",
-      "location": "Coastal Beach"
-    },
-    {
-      "id": "g-4",
-      "title": "High School Graduation Honor",
-      "category": "school",
-      "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Celebrating high school graduation with best friends.",
-      "date": "2022",
-      "location": "High School Campus"
-    },
-    {
-      "id": "g-5",
-      "title": "Late Night College Study Group",
-      "category": "school",
+      "title": "Campus Study Group",
+      "category": "college",
       "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Surviving algorithms and data structures together.",
-      "date": "2024",
+      "caption": "Studying data structures and web development with friends.",
+      "date": "Junior Year",
       "location": "University Library"
     },
     {
-      "id": "g-6",
+      "id": "g-4",
+      "title": "Senior Capstone Defense",
+      "category": "college",
+      "url": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1000&q=80",
+      "caption": "Presenting thesis project to university faculty committee.",
+      "date": "Senior Year",
+      "location": "Auditorium Hall"
+    },
+    {
+      "id": "g-5",
       "title": "Graduation Day Ceremony",
       "category": "graduation",
       "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Standing on the grand stage holding the Computer Science degree.",
+      "caption": "Standing on stage holding the Bachelor of Science diploma.",
       "date": "2026",
-      "location": "University Arena"
+      "location": "Commencement Arena"
     },
     {
-      "id": "g-7",
-      "title": "Family Hug After Ceremony",
+      "id": "g-6",
+      "title": "Family Photo After Ceremony",
       "category": "graduation",
       "url": "https://images.unsplash.com/photo-1627556592933-ffe29df8944d?auto=format&fit=crop&w=1000&q=80",
-      "caption": "The purest moment of relief and joy with Mom and Dad.",
+      "caption": "Celebrating degree victory with Mom & Dad.",
       "date": "2026",
       "location": "Campus Gardens"
     }
@@ -510,64 +511,64 @@
       "id": "mom",
       "recipient": "Mom",
       "title": "To My Dearest Mom",
-      "subtitle": "A Letter of Eternal Gratitude",
+      "subtitle": "A Letter of College Gratitude",
       "envelopeColor": "from-red-900 to-rose-950",
       "waxSealColor": "#e50914",
       "letterContent": [
         "Dearest Mom,",
-        "If someone were to count every meal you cooked, every piece of laundry you washed, and every tear you dried, the numbers would reach into infinity. You have spent your entire life giving without ever asking for anything in return.",
-        "When college felt overwhelming and I doubted my ability to finish, it was your voice on the phone that calmed my racing heart. You told me you believed in me, even when I struggled to believe in myself.",
-        "Today, as I hold this diploma in my hands, I want you to know that half of it belongs to you. Your quiet sacrifices made this day possible. I love you more than words will ever be able to express.",
-        "Thank you for being my mother, my protector, and my warmest home."
+        "Throughout my 4 years of college, your love was my constant shelter. From packing care packages during exam weeks to calling me every single evening to check if I was eating well, your care never wavered.",
+        "When university felt overwhelming and coding assignments stretched late into the night, your words gave me the peace and courage to keep pushing forward.",
+        "Today, as I hold this Computer Science diploma, I want you to know that half of this achievement belongs to you. Your quiet sacrifices made this day possible.",
+        "Thank you for being my mother, my comfort, and my greatest strength."
       ],
       "photoUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "signature": "With all my love and devotion, Your Son",
-      "date": "Graduation Day 2026"
+      "signature": "With all my love and devotion, Your Child",
+      "date": "Commencement 2026"
     },
     {
       "id": "dad",
       "recipient": "Dad",
       "title": "To My Hero, My Dad",
-      "subtitle": "A Letter of Pride and Respect",
+      "subtitle": "A Letter of Respect and Gratitude",
       "envelopeColor": "from-slate-900 to-amber-950",
       "waxSealColor": "#d97706",
       "letterContent": [
         "Dearest Dad,",
-        "You rarely speak in long speeches, but your actions have spoken louder than a thousand words ever could. I watched you wake up before sunrise, rain or shine, working relentlessly to give our family a secure future.",
-        "You taught me what it means to be a man of character—to work hard, speak truthfully, treat people with kindness, and never back down from a challenge.",
-        "Dad, when I walked across that graduation stage today, I held my head high because I am your child. Your sacrifices opened doors that were closed to you in your own youth. I promise to spend the rest of my life making you proud of the person you raised.",
-        "Thank you for being my hero, my pillar of strength, and my teacher."
+        "Your relentless work ethic and integrity inspired me every single day of my university journey. Watching how hard you worked to fund my college education taught me what true dedication means.",
+        "You taught me to face academic challenges with discipline, speak truthfully, and never give up when problems got tough.",
+        "Dad, when I walked across that commencement stage today, I held my head high because I am your child. Your sacrifices opened doors for me, and I promise to make you proud throughout my career.",
+        "Thank you for being my hero, my guide, and my pillar of strength."
       ],
       "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "signature": "With deepest respect and love, Your Son",
-      "date": "Graduation Day 2026"
+      "signature": "With deepest respect and love, Your Child",
+      "date": "Commencement 2026"
     }
   ],
   "credits": {
-    "director": "Jasper (The Graduate)",
+    "director": "The Graduate",
     "producers": [
       "Executive Producer: Mom",
       "Executive Producer: Dad"
     ],
     "cast": [
-      { "role": "The Graduate & Developer", "name": "Jasper" },
-      { "role": "The Heart & Warmth", "name": "Mom" },
+      { "role": "The Graduate & Software Engineer", "name": "Class of 2026" },
+      { "role": "The Heart & Care", "name": "Mom" },
       { "role": "Pillar of Strength", "name": "Dad" },
-      { "role": "Co-Star & Sister/Brother", "name": "Family Siblings" },
-      { "role": "Supporting Friends", "name": "Classmates & Mentors" }
+      { "role": "Co-Stars & Support", "name": "Family & Siblings" },
+      { "role": "Supporting Cast", "name": "College Classmates & CS Mentors" }
     ],
     "specialThanks": [
-      "Mom for endless home-cooked meals & prayers",
-      "Dad for hard work, wisdom & endless sacrifices",
-      "University Professors & Mentors",
-      "Stack Overflow & Coffee Beans",
-      "Everyone who believed when the road was steep"
+      "Mom for endless care packages, prayers & encouragement calls",
+      "Dad for hard work, tuition sacrifices & relentless guidance",
+      "University Computer Science Professors & Tech Mentors",
+      "Campus Library, Coffee Beans & Stack Overflow",
+      "Everyone who supported the college journey"
     ],
     "music": [
-      "Sacrifice & Hope (Original Motion Picture Theme)",
-      "The Ta-Dum Cinematic Hit",
+      "The College Journey (Original Motion Picture Theme)",
+      "The Netflix Cinematic Intro",
       "Tears of Triumph Piano Solo"
     ],
-    "dedication": "Dedicated with boundless love to Mom and Dad. Every milestone on this journey belongs to you."
+    "dedication": "Dedicated with boundless love to Mom and Dad. Every milestone on this university journey belongs to you."
   }
 }

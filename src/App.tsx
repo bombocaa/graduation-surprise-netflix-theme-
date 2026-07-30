@@ -6,11 +6,7 @@ import { Navbar } from './components/Navbar';
 import { HeroBanner } from './components/HeroBanner';
 import { ContinueWatching } from './components/ContinueWatching';
 import { EpisodeModal } from './components/EpisodeModal';
-import { FamilySection } from './components/FamilySection';
 import { AwardsSection } from './components/AwardsSection';
-import { BehindTheScenes } from './components/BehindTheScenes';
-import { PhotoGallery } from './components/PhotoGallery';
-import { LettersSection } from './components/LettersSection';
 import { FinalEnding } from './components/FinalEnding';
 import { EndCredits } from './components/EndCredits';
 import { ParticleBackground } from './components/ParticleBackground';
@@ -48,11 +44,7 @@ const MainContent: React.FC = () => {
       <main className="relative z-10">
         <HeroBanner />
         <ContinueWatching />
-        <FamilySection />
         <AwardsSection />
-        <BehindTheScenes />
-        <PhotoGallery />
-        <LettersSection />
       </main>
 
       {/* Fullscreen Documentary Modals & Easter Egg */}

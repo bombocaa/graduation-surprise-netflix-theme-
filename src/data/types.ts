@@ -51,6 +51,9 @@ export interface Award {
   description: string;
   speech: string;
   statuetteColor: string;
+  image?: string;
+  issuer?: string;
+  date?: string;
 }
 
 export interface BehindTheSceneItem {

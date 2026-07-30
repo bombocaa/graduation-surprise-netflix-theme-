@@ -8,10 +8,13 @@ import { soundFX } from '../utils/soundFX';
 import confetti from 'canvas-confetti';
 
 export type AppStage = 'loading' | 'intro' | 'welcome' | 'main' | 'ending' | 'credits';
+export type AppProfile = 'Mom' | 'Dad' | 'Family' | 'Guest';
 
 interface StoryContextType {
   stage: AppStage;
   setStage: (stage: AppStage) => void;
+  selectedProfile: AppProfile;
+  setSelectedProfile: (profile: AppProfile) => void;
   storyData: StoryData;
   progress: ProgressState;
   isUnlocked: boolean;
@@ -45,6 +48,7 @@ const StoryContext = createContext<StoryContextType | undefined>(undefined);
 
 export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [stage, setStage] = useState<AppStage>('intro');
+  const [selectedProfile, setSelectedProfile] = useState<AppProfile>('Mom');
   const [progress, setProgressState] = useState<ProgressState>(getStoredProgress());
   
   // Modals
@@ -154,6 +158,8 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       value={{
         stage,
         setStage,
+        selectedProfile,
+        setSelectedProfile,
         storyData: storyDataTyped,
         progress,
         isUnlocked,

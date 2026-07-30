@@ -5,10 +5,11 @@ import { useStory } from '../context/StoryContext';
 import { soundFX } from '../utils/soundFX';
 
 export const WelcomeScreen: React.FC = () => {
-  const { setStage } = useStory();
+  const { setStage, setSelectedProfile } = useStory();
 
-  const handleSelectProfile = (_profileName: string) => {
+  const handleSelectProfile = (profileName: string) => {
     soundFX.playUnlockChime();
+    setSelectedProfile(profileName as any);
     setStage('main');
   };
 
