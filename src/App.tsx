@@ -15,7 +15,7 @@ import { FinalEnding } from './components/FinalEnding';
 import { EndCredits } from './components/EndCredits';
 import { ParticleBackground } from './components/ParticleBackground';
 import { EasterEggModal } from './components/EasterEggModal';
-import { GraduationCap, Heart, RotateCcw } from 'lucide-react';
+import { Heart, RotateCcw } from 'lucide-react';
 
 const MainContent: React.FC = () => {
   const { stage, resetProgress } = useStory();
@@ -62,8 +62,7 @@ const MainContent: React.FC = () => {
       {/* Footer */}
       <footer className="relative z-10 bg-neutral-950 border-t border-neutral-900 py-12 px-6 text-center text-xs text-neutral-400 font-mono">
         <div className="max-w-4xl mx-auto flex flex-col items-center space-y-4">
-          <div className="flex items-center space-x-2 text-red-600 font-serif font-black text-xl">
-            <GraduationCap className="w-5 h-5 text-red-600" />
+          <div className="flex items-center text-red-600 font-netflix-brand text-2xl tracking-wider">
             <span>NETFLIX GRADUATION DOCUMENTARY</span>
           </div>
 

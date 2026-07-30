@@ -44,7 +44,7 @@ const storyDataTyped = storyDataJson as StoryData;
 const StoryContext = createContext<StoryContextType | undefined>(undefined);
 
 export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [stage, setStage] = useState<AppStage>('loading');
+  const [stage, setStage] = useState<AppStage>('intro');
   const [progress, setProgressState] = useState<ProgressState>(getStoredProgress());
   
   // Modals

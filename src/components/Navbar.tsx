@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Volume2, VolumeX, RotateCcw, Lock, Unlock, GraduationCap } from 'lucide-react';
+import { Volume2, VolumeX, RotateCcw, Lock, Unlock } from 'lucide-react';
 import { useStory } from '../context/StoryContext';
 
 export const Navbar: React.FC = () => {
@@ -43,11 +43,8 @@ export const Navbar: React.FC = () => {
           {/* Netflix Style Graduation Logo */}
           <div
             onClick={() => scrollToSection('hero')}
-            className="flex items-center space-x-2 cursor-pointer group"
+            className="flex items-center cursor-pointer group"
           >
-            <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-red-600 shadow-[0_0_15px_rgba(229,9,20,0.8)] group-hover:scale-105 transition-transform">
-              <GraduationCap className="w-5 h-5 text-white" />
-            </div>
             <span className="text-2xl md:text-3xl font-netflix-brand tracking-wider text-red-600 group-hover:text-red-500 transition-colors">
               NETFLIX
             </span>
