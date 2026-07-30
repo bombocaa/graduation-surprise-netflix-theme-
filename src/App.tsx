@@ -1,6 +1,5 @@
 import React from 'react';
 import { StoryProvider, useStory } from './context/StoryContext';
-import { LoadingScreen } from './components/LoadingScreen';
 import { NetflixIntro } from './components/NetflixIntro';
 import { WelcomeScreen } from './components/WelcomeScreen';
 import { Navbar } from './components/Navbar';
@@ -20,10 +19,6 @@ import { GraduationCap, Heart, RotateCcw } from 'lucide-react';
 
 const MainContent: React.FC = () => {
   const { stage, resetProgress } = useStory();
-
-  if (stage === 'loading') {
-    return <LoadingScreen />;
-  }
 
   if (stage === 'intro') {
     return <NetflixIntro />;

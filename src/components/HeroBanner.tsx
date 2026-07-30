@@ -1,14 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Play, Info, Sparkles } from 'lucide-react';
+import { Play, Info, Volume2, VolumeX } from 'lucide-react';
 import { useStory } from '../context/StoryContext';
 
 export const HeroBanner: React.FC = () => {
-  const { storyData, setActiveEpisode, progress } = useStory();
+  const { storyData, setActiveEpisode, progress, isMuted, toggleMute } = useStory();
   const { hero, episodes } = storyData;
 
   const handlePlayLatest = () => {
-    // Find first unwatched episode or episode 1
     const unwatched = episodes.find((ep) => !progress.completedEpisodes.includes(ep.id));
     const target = unwatched || episodes[0];
     setActiveEpisode(target);
@@ -22,31 +21,33 @@ export const HeroBanner: React.FC = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-[85vh] md:min-h-screen flex items-center justify-start bg-black text-white pt-20 overflow-hidden">
-      {/* Background Image Container with Dark Gradient Mask */}
+    <section id="hero" className="relative min-h-[90vh] md:min-h-screen flex items-center justify-start bg-black text-white pt-16 overflow-hidden select-none">
+      {/* Background Hero Image with Vignette */}
       <div 
-        className="absolute inset-0 bg-cover bg-center filter brightness-60 transition-all duration-1000 scale-105"
+        className="absolute inset-0 bg-cover bg-center filter brightness-70 scale-105 transition-all duration-1000"
         style={{ backgroundImage: `url('${hero.heroImage}')` }}
       />
 
-      {/* Netflix Multi-layer Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent w-full md:w-3/4" />
-      <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-black/60" />
-      <div className="absolute inset-0 bg-radial from-transparent via-black/30 to-black/90 pointer-events-none" />
+      {/* Netflix Multi-layer Gradient Masking (Left, Bottom, Radial) */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent w-full md:w-3/5 z-1" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent z-1" />
+      <div className="absolute inset-0 bg-radial from-transparent via-black/20 to-black/80 pointer-events-none z-1" />
 
-      {/* Hero Content Box */}
-      <div className="relative z-10 max-w-3xl mx-auto md:mx-0 px-6 md:px-16 py-12 flex flex-col items-start">
-        {/* Netflix Original Tag */}
+      {/* Hero Content Area */}
+      <div className="relative z-10 max-w-2xl px-6 sm:px-12 md:px-16 pt-20 pb-12 flex flex-col items-start">
+        {/* N DOCUMENTARY Series Tag */}
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="flex items-center space-x-2 text-xs md:text-sm font-mono tracking-[0.25em] text-red-500 uppercase font-semibold mb-4"
+          className="flex items-center space-x-2 mb-3"
         >
-          <span className="w-5 h-5 rounded bg-red-600 text-white font-serif font-black flex items-center justify-center text-xs">
+          <span className="text-3xl font-serif font-black text-red-600 drop-shadow-[0_0_10px_rgba(229,9,20,0.9)]">
             N
           </span>
-          <span>ORIGINAL DOCUMENTARY SERIES</span>
+          <span className="text-xs md:text-sm font-semibold tracking-[0.3em] uppercase text-neutral-300">
+            D O C U M E N T A R Y
+          </span>
         </motion.div>
 
         {/* Hero Title */}
@@ -54,86 +55,93 @@ export const HeroBanner: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-white mb-4 font-sans leading-none drop-shadow-2xl"
+          className="text-4xl sm:text-6xl md:text-7xl font-black font-sans tracking-tight text-white mb-4 leading-none drop-shadow-2xl"
         >
           {hero.title}
         </motion.h1>
 
-        {/* Subtitle */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-lg sm:text-2xl font-medium text-neutral-200 mb-6 max-w-xl leading-snug"
+        {/* Top 10 Rank Badge */}
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="flex items-center space-x-3 mb-4"
         >
-          {hero.subtitle}
-        </motion.p>
+          <div className="flex items-center justify-center w-7 h-7 bg-red-600 text-white font-black text-xs rounded-sm shadow-md">
+            #1
+          </div>
+          <span className="text-sm md:text-base font-bold text-white tracking-tight">
+            #1 in Family Originals Today
+          </span>
+        </motion.div>
 
-        {/* Metadata Badges */}
+        {/* Metadata Line */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="flex flex-wrap items-center gap-2 sm:gap-3 text-xs md:text-sm mb-6 text-neutral-300 font-medium"
+          className="flex flex-wrap items-center gap-3 text-xs md:text-sm mb-4 text-neutral-300 font-medium"
         >
-          <span className="text-emerald-400 font-bold font-mono">100% Match</span>
-          <span className="px-2 py-0.5 rounded bg-neutral-800/80 border border-neutral-700 text-neutral-300 font-mono">
-            {hero.graduationDate}
+          <span className="text-emerald-400 font-bold font-mono">99% Match</span>
+          <span className="text-neutral-400">2026</span>
+          <span className="px-1.5 py-0.5 rounded border border-neutral-600 text-[11px] text-neutral-300 font-mono">
+            G (Gratitude)
           </span>
-          <span className="px-2 py-0.5 rounded bg-neutral-800/80 border border-neutral-700 font-mono text-amber-400">
+          <span className="px-1.5 py-0.5 rounded border border-neutral-600 text-[11px] text-neutral-300 font-mono">
             5 Episodes
           </span>
-          <span className="px-2 py-0.5 rounded bg-red-950/60 border border-red-600/40 text-red-400 font-mono text-xs">
+          <span className="px-1.5 py-0.5 rounded border border-neutral-600 text-[11px] text-red-500 font-mono">
             4K ULTRA HD
-          </span>
-          <span className="px-2 py-0.5 rounded bg-neutral-800/80 border border-neutral-700 font-mono text-xs">
-            5.1 SURROUND
           </span>
         </motion.div>
 
-        {/* Description */}
+        {/* Description Text */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-xs sm:text-sm md:text-base text-neutral-300 mb-8 max-w-2xl leading-relaxed font-light line-clamp-3 md:line-clamp-none"
+          className="text-sm md:text-base text-neutral-200 mb-8 leading-relaxed font-normal drop-shadow-md max-w-xl line-clamp-3 md:line-clamp-none"
         >
           {hero.description}
         </motion.p>
 
-        {/* Buttons */}
+        {/* Netflix Buttons Row */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="flex flex-wrap items-center gap-4"
+          className="flex items-center space-x-4"
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+          <button
             onClick={handlePlayLatest}
-            className="flex items-center space-x-3 bg-white hover:bg-neutral-200 text-black font-bold text-base md:text-lg px-7 py-3.5 rounded-lg transition-colors cursor-pointer shadow-lg shadow-white/10"
+            className="flex items-center space-x-3 bg-white hover:bg-neutral-200 text-black font-bold text-base md:text-lg px-8 py-3 rounded-md transition-colors cursor-pointer shadow-lg active:scale-95"
           >
-            <Play className="w-6 h-6 fill-black" />
-            <span>▶ Watch Now</span>
-          </motion.button>
+            <Play className="w-6 h-6 fill-black text-black" />
+            <span>Play</span>
+          </button>
 
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+          <button
             onClick={handleMoreInfo}
-            className="flex items-center space-x-3 bg-neutral-800/90 hover:bg-neutral-700 text-white font-medium text-base md:text-lg px-7 py-3.5 rounded-lg border border-neutral-600/60 transition-colors cursor-pointer shadow-lg backdrop-blur-sm"
+            className="flex items-center space-x-3 bg-neutral-600/70 hover:bg-neutral-600/50 text-white font-bold text-base md:text-lg px-8 py-3 rounded-md transition-colors cursor-pointer backdrop-blur-md active:scale-95"
           >
             <Info className="w-6 h-6" />
-            <span>ℹ More Information</span>
-          </motion.button>
+            <span>More Info</span>
+          </button>
         </motion.div>
       </div>
 
-      {/* Hero Footnote Bar */}
-      <div className="absolute bottom-4 right-8 hidden md:flex items-center space-x-3 text-xs text-neutral-400 bg-neutral-900/80 px-4 py-2 rounded-lg border border-neutral-800 backdrop-blur-md">
-        <Sparkles className="w-4 h-4 text-amber-400" />
-        <span>Dedicated to Mom & Dad</span>
+      {/* Right Side Control Overlay (Mute Button + Age Rating Badge) */}
+      <div className="absolute bottom-24 right-0 z-20 flex items-center space-x-3">
+        <button
+          onClick={toggleMute}
+          className="p-3 rounded-full border border-neutral-500/80 bg-neutral-900/60 hover:bg-neutral-800 text-white transition-colors cursor-pointer backdrop-blur-md"
+        >
+          {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+        </button>
+        
+        <div className="bg-neutral-900/80 border-l-4 border-white px-4 py-1.5 text-xs font-semibold text-neutral-200 backdrop-blur-md pr-6">
+          G | Gratitude for Mom & Dad
+        </div>
       </div>
     </section>
   );

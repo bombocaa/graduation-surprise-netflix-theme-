@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
             <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-red-600 shadow-[0_0_15px_rgba(229,9,20,0.8)] group-hover:scale-105 transition-transform">
               <GraduationCap className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl md:text-2xl font-black font-serif tracking-tighter text-red-600 group-hover:text-red-500 transition-colors">
+            <span className="text-2xl md:text-3xl font-netflix-brand tracking-wider text-red-600 group-hover:text-red-500 transition-colors">
               NETFLIX
             </span>
           </div>
