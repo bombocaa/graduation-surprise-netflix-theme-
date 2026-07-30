@@ -2,16 +2,16 @@
   "hero": {
     "title": "THE COLLEGE JOURNEY",
     "subtitle": "A University Story of Grit, Growth, Sacrifices, and Victory",
-    "description": "An intimate, cinematic chronicle of a college odyssey—from freshman campus orientation and late-night library study sessions to standing proud with a Computer Science diploma. A tribute to Mom & Dad whose unconditional support built every milestone.",
+    "description": "An intimate, cinematic chronicle of a college odyssey—from freshman campus orientation and late-night library study sessions to standing proud with a BSIT-MWA diploma. A tribute to Mom & Dad whose unconditional support built every milestone.",
     "graduationDate": "Class of 2026",
-    "degree": "Bachelor of Science in Computer Science",
+    "degree": "Bachelor of Science in Information Technology - Mobile and Web Applications (BSIT-MWA)",
     "university": "State University of Technology",
     "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=85"
   },
   "welcome": {
     "title": "Welcome, Mom and Dad",
     "subtitle": "Before we begin this journey, I'd like to thank you from the bottom of my heart.",
-    "greeting": "Tonight, we are looking back at the university years—the campus mornings, the late-night library marathons, the exam pressures, and the sacrifices you made to keep my college dreams alive.",
+    "greeting": "Tonight, we are looking back at the university years—the campus mornings, the late-night library marathons, the exam pressures, and the sacrifices you made to keep my BSIT-MWA dreams alive.",
     "quote": "“To the world, you may be two people. But to me, you are the entire world that made this degree possible.”"
   },
   "episodes": [
@@ -25,11 +25,11 @@
       "matchScore": "99% Match",
       "thumbnail": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80",
       "heroImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1920&q=85",
-      "summary": "Stepping onto the university campus for the first time—setting up the dorm room, attending freshman orientation, and writing the first 'Hello World' in computer science lab.",
+      "summary": "Stepping onto the university campus for the first time—setting up the dorm room, attending freshman orientation, and writing the first 'Hello World' in BSIT-MWA lab.",
       "fullStory": [
         "Freshman year began with the excitement and nerves of stepping into a massive university campus. Unpacking bags in the dorm room, seeing the lecture halls, and holding my schedule felt like entering a brand new world.",
         "Mom, you helped me organize my desk and packed homemade food so I wouldn't miss home. Dad, your firm handshake before driving away gave me the quiet confidence that I belonged here.",
-        "From the first Computer Science 101 lecture to making campus friends over late-night coffee, freshman year laid the foundation for everything that was to come."
+        "From the first BSIT-MWA 101 lecture to making campus friends over late-night coffee, freshman year laid the foundation for everything that was to come."
       ],
       "timeline": [
         {
@@ -40,7 +40,7 @@
         {
           "year": "Freshman Winter",
           "title": "First Coding Lab & 'Hello World'",
-          "description": "Writing my first C++ program in the campus computer lab and seeing code run."
+          "description": "Writing my first mobile & web app program in the campus computer lab and seeing code run."
         },
         {
           "year": "Freshman Spring",
@@ -81,21 +81,21 @@
       "matchScore": "98% Match",
       "thumbnail": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
       "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=85",
-      "summary": "Diving deep into Computer Science—tackling Data Structures & Algorithms, joining university tech clubs, and competing in 24-hour hackathons with classmates.",
+      "summary": "Diving deep into BSIT-MWA—tackling Mobile & Web Architecture, joining university tech clubs, and competing in 24-hour hackathons with classmates.",
       "fullStory": [
-        "Sophomore year brought a significant leap in academic intensity. Late nights at the university library became second nature as algorithms, web dev, and database systems filled my timetable.",
-        "I formed a close group of college friends. We spent weekends at 24-hour campus hackathons, building web apps, debugging code together, and sharing late-night pizza.",
+        "Sophomore year brought a significant leap in academic intensity. Late nights at the university library became second nature as web algorithms, mobile app dev, and database systems filled my timetable.",
+        "I formed a close group of college friends. We spent weekends at 24-hour campus hackathons, building web & mobile apps, debugging code together, and sharing late-night pizza.",
         "Even when academic pressure peaked, calls from home were my anchor. Dad reminded me to stay disciplined, while Mom ensured I was eating properly and resting."
       ],
       "timeline": [
         {
           "year": "Sophomore Fall",
           "title": "First 24-Hour Campus Hackathon",
-          "description": "Building a full web application overnight with college teammates and winning Best UI."
+          "description": "Building a full mobile & web application overnight with college teammates and winning Best UI."
         },
         {
           "year": "Sophomore Winter",
-          "title": "Data Structures & Algorithms",
+          "title": "Mobile & Web Data Architecture",
           "description": "Surviving the hardest course of the semester through relentless library study sessions."
         },
         {
@@ -139,7 +139,7 @@
       "heroImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1920&q=85",
       "summary": "The raw, emotional valley of the college journey. Managing tuition costs, brutal exam weeks, late-night breakdowns, and finding hope through family love.",
       "fullStory": [
-        "Junior year was the most demanding chapter of college. Complex software engineering courses, system architecture, and impending senior thesis prep created intense pressure.",
+        "Junior year was the most demanding chapter of college. Complex mobile application frameworks, web security, and impending senior thesis prep created intense pressure.",
         "Financial burdens weighed heavily on our family. I saw how hard Mom and Dad worked to cover my tuition fees, quietly sacrificing their own needs so I could stay enrolled without stress.",
         "There were nights when code broke at 3 AM and exhaustion set in. But knowing how much Mom and Dad sacrificed gave me the strength to wipe away tears, pick up my laptop, and keep grinding."
       ],
@@ -195,15 +195,15 @@
       "heroImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1920&q=85",
       "summary": "Mastering modern web development—building React component architectures, state management, UI design systems, and completing the senior capstone thesis.",
       "fullStory": [
-        "Senior year was where all the college years came together. From theoretical computer science to building production-ready web applications, code became my craft.",
+        "Senior year was where all the BSIT-MWA years came together. From mobile frameworks to building production-ready web applications, code became my craft.",
         "I spent senior semester engineering complex web platforms, refining UI/UX designs, and defense-testing software architectures.",
-        "Building this very Netflix-themed application was the ultimate milestone—crafted with every frontend skill learned throughout college to honor Mom and Dad."
+        "Building this very Netflix-themed application was the ultimate milestone—crafted with every BSIT-MWA skill learned throughout college to honor Mom and Dad."
       ],
       "timeline": [
         {
           "year": "Senior Fall",
           "title": "Senior Thesis Engineering",
-          "description": "Developing full-stack web architectures and responsive frontend design systems."
+          "description": "Developing full-stack mobile & web architectures and responsive frontend design systems."
         },
         {
           "year": "Senior Winter",
@@ -213,7 +213,7 @@
         {
           "year": "Senior Spring",
           "title": "Final University Audits Passed",
-          "description": "Completing all degree requirements for Bachelor of Science in Computer Science."
+          "description": "Completing all degree requirements for Bachelor of Science in Information Technology - Mobile and Web Applications (BSIT-MWA)."
         }
       ],
       "quotes": [
@@ -229,7 +229,7 @@
       "memories": [
         {
           "title": "Senior Capstone Presentation",
-          "description": "Presenting software project live on university stage to faculty & peers.",
+          "description": "Presenting mobile & web project live on university stage to faculty & peers.",
           "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80"
         },
         {
@@ -249,7 +249,7 @@
       "matchScore": "100% Match",
       "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
       "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=85",
-      "summary": "Walking across the university commencement stage in black cap and gown, receiving the Computer Science diploma, and celebrating shared victory with Mom & Dad.",
+      "summary": "Walking across the university commencement stage in black cap and gown, receiving the BSIT-MWA diploma, and celebrating shared victory with Mom & Dad.",
       "fullStory": [
         "Graduation morning arrived under a bright blue sky. Fitting into the graduation cap and gown felt surreal—the culmination of 4 years of college dedication.",
         "As my name was called over auditorium loudspeakers and I stepped onto the main stage, I looked into the audience to see Mom holding back tears of joy and Dad standing proud.",
@@ -290,7 +290,7 @@
         },
         {
           "title": "Diploma in Parents' Hands",
-          "description": "Handing the Computer Science diploma to Mom & Dad on campus grounds.",
+          "description": "Handing the BSIT-MWA diploma to Mom & Dad on campus grounds.",
           "image": "https://images.unsplash.com/photo-1627556592933-ffe29df8944d?auto=format&fit=crop&w=600&q=80"
         }
       ]
@@ -350,8 +350,8 @@
       "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
       "heroImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
       "relationship": "Mentors",
-      "bio": "The dedicated Computer Science faculty who challenged my intellect, guided my capstone project, and shared technical wisdom.",
-      "favoriteMemory": "Office hours with CS mentors solving complex algorithm logic on whiteboards.",
+      "bio": "The dedicated BSIT-MWA faculty who challenged my intellect, guided my capstone project, and shared technical wisdom.",
+      "favoriteMemory": "Office hours with BSIT-MWA mentors solving complex mobile & web app architecture logic.",
       "thankYouMessage": "Thank you for pushing me to achieve higher standards of engineering excellence.",
       "photos": [
         "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
@@ -366,7 +366,7 @@
       "category": "Academic Excellence",
       "iconName": "Trophy",
       "badge": "SUMMA CUM LAUDE",
-      "description": "Awarded for maintaining top academic GPA excellence throughout consecutive university semesters in Computer Science.",
+      "description": "Awarded for maintaining top academic GPA excellence throughout consecutive university semesters in BSIT-MWA.",
       "speech": "Consistently recognized on the University Dean's Honor List for outstanding academic performance and dedication to higher learning.",
       "statuetteColor": "from-amber-500 to-yellow-600",
       "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
@@ -380,7 +380,7 @@
       "category": "Software Engineering",
       "iconName": "Crown",
       "badge": "1ST PLACE CHAMPION",
-      "description": "First place winner out of 50 university software teams for engineering an innovative real-time web platform overnight.",
+      "description": "First place winner out of 50 university software teams for engineering an innovative real-time mobile & web platform overnight.",
       "speech": "Awarded 1st Place Trophy and Best UI Architecture in the 24-Hour Inter-University Software Development Championship.",
       "statuetteColor": "from-red-500 to-amber-500",
       "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
@@ -394,11 +394,11 @@
       "category": "Capstone Distinction",
       "iconName": "Sparkles",
       "badge": "TOP CAPSTONE",
-      "description": "Recognized by the Computer Science faculty evaluation committee for outstanding frontend UI/UX engineering and system architecture.",
-      "speech": "Highest distinction awarded for the senior Computer Science capstone research and software implementation.",
+      "description": "Recognized by the BSIT-MWA faculty evaluation committee for outstanding mobile & web UI/UX engineering and system architecture.",
+      "speech": "Highest distinction awarded for the senior BSIT-MWA capstone research and software implementation.",
       "statuetteColor": "from-purple-500 to-pink-500",
       "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
-      "issuer": "Department of Computer Science",
+      "issuer": "Department of Information Technology (BSIT-MWA)",
       "date": "2026"
     },
     {
@@ -408,11 +408,11 @@
       "category": "Student Leadership",
       "iconName": "HeartHandshake",
       "badge": "LEADERSHIP HONOR",
-      "description": "Awarded for organizing web development workshops, leading coding bootcamps, and mentoring junior computer science students.",
+      "description": "Awarded for organizing mobile & web development workshops, leading coding bootcamps, and mentoring junior IT students.",
       "speech": "Recognized for exemplary student leadership, community workshops, and dedicated mentorship across campus.",
       "statuetteColor": "from-emerald-400 to-cyan-500",
       "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80",
-      "issuer": "CS Student Association",
+      "issuer": "IT Student Association",
       "date": "2025"
     }
   ],
@@ -429,7 +429,7 @@
       "id": "bts-2",
       "title": "Mom's College Care Package",
       "category": "Craft Services",
-      "caption": "The secret fuel behind passing computer science finals.",
+      "caption": "The secret fuel behind passing mobile & web dev finals.",
       "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80",
       "directorNote": "Opening home snack boxes sent to the dorm during exam week."
     },
@@ -437,9 +437,9 @@
       "id": "bts-3",
       "title": "Campus Hackathon Sprint",
       "category": "Tech Competition",
-      "caption": "Building full-stack web applications overnight with teammates.",
+      "caption": "Building full-stack mobile & web applications overnight with teammates.",
       "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
-      "directorNote": "Debugging React state hooks at 3 AM to win top UI project distinction."
+      "directorNote": "Debugging React & mobile state hooks at 3 AM to win top UI project distinction."
     },
     {
       "id": "bts-4",
@@ -462,12 +462,12 @@
     },
     {
       "id": "g-2",
-      "title": "Computer Science Lab",
+      "title": "BSIT-MWA Lab",
       "category": "college",
       "url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Coding algorithms in the university tech building.",
+      "caption": "Coding mobile & web applications in the university tech building.",
       "date": "Sophomore Year",
-      "location": "CS Tech Building"
+      "location": "IT Tech Building"
     },
     {
       "id": "g-3",
@@ -492,7 +492,7 @@
       "title": "Graduation Day Ceremony",
       "category": "graduation",
       "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
-      "caption": "Standing on stage holding the Bachelor of Science diploma.",
+      "caption": "Standing on stage holding the BSIT-MWA degree.",
       "date": "2026",
       "location": "Commencement Arena"
     },
@@ -518,7 +518,7 @@
         "Dearest Mom,",
         "Throughout my 4 years of college, your love was my constant shelter. From packing care packages during exam weeks to calling me every single evening to check if I was eating well, your care never wavered.",
         "When university felt overwhelming and coding assignments stretched late into the night, your words gave me the peace and courage to keep pushing forward.",
-        "Today, as I hold this Computer Science diploma, I want you to know that half of this achievement belongs to you. Your quiet sacrifices made this day possible.",
+        "Today, as I hold this BSIT-MWA diploma, I want you to know that half of this achievement belongs to you. Your quiet sacrifices made this day possible.",
         "Thank you for being my mother, my comfort, and my greatest strength."
       ],
       "photoUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
@@ -555,12 +555,12 @@
       { "role": "The Heart & Care", "name": "Mom" },
       { "role": "Pillar of Strength", "name": "Dad" },
       { "role": "Co-Stars & Support", "name": "Family & Siblings" },
-      { "role": "Supporting Cast", "name": "College Classmates & CS Mentors" }
+      { "role": "Supporting Cast", "name": "College Classmates & BSIT-MWA Mentors" }
     ],
     "specialThanks": [
       "Mom for endless care packages, prayers & encouragement calls",
       "Dad for hard work, tuition sacrifices & relentless guidance",
-      "University Computer Science Professors & Tech Mentors",
+      "University BSIT-MWA Professors & Tech Mentors",
       "Campus Library, Coffee Beans & Stack Overflow",
       "Everyone who supported the college journey"
     ],
