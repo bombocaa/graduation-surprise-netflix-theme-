@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # Large media files
-*.mov
 *.mp4
 !src/assets/intro.mp4
+
 
