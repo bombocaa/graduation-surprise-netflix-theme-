@@ -23,10 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large media files
+# Large media files (handled via YouTube embed)
+*.mov
 *.mp4
 !src/assets/intro.mp4
-!public/janus-video.mp4
-
-
-
+public/janus-video*
