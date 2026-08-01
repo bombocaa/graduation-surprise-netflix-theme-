@@ -3,7 +3,11 @@ import { Volume2, VolumeX, Search, Heart, Smile, Users, User, ChevronDown, Refre
 import { useStory, type AppProfile } from '../context/StoryContext';
 
 export const Navbar: React.FC = () => {
-  const { isMuted, toggleMute, setStage, selectedProfile, setSelectedProfile, resetProgress } = useStory();
+  const { isMuted, toggleMute, setStage, selectedProfile, setSelectedProfile, resetProgress, isPlayingVideo } = useStory();
+
+  if (isPlayingVideo) {
+    return null;
+  }
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
   const [isSearchOpen, setIsSearchOpen] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -120,22 +124,6 @@ export const Navbar: React.FC = () => {
                 className="hover:text-white transition-colors cursor-pointer"
               >
                 Home
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={() => scrollToSection('episodes')}
-                className="hover:text-white transition-colors cursor-pointer"
-              >
-                Episodes
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={() => scrollToSection('awards')}
-                className="hover:text-white transition-colors cursor-pointer"
-              >
-                Awards
               </button>
             </li>
           </ul>

@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import Lenis from 'lenis';
 import storyDataJson from '../data/storyData.json';
 import type { StoryData, Episode, FamilyMember, Award, GalleryPhoto, Letter, ProgressState } from '../data/types';
@@ -35,6 +35,8 @@ interface StoryContextType {
   setActiveLetter: (letter: Letter | null) => void;
   isEasterEggOpen: boolean;
   setIsEasterEggOpen: (open: boolean) => void;
+  isPlayingVideo: boolean;
+  setIsPlayingVideo: (playing: boolean) => void;
   
   // Sound
   isMuted: boolean;
@@ -58,6 +60,7 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [activeGalleryPhoto, setActiveGalleryPhoto] = useState<GalleryPhoto | null>(null);
   const [activeLetter, setActiveLetter] = useState<Letter | null>(null);
   const [isEasterEggOpen, setIsEasterEggOpen] = useState<boolean>(false);
+  const [isPlayingVideo, setIsPlayingVideo] = useState<boolean>(false);
   
   // Audio state
   const [isMuted, setIsMuted] = useState<boolean>(false);
@@ -75,6 +78,8 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     });
   }, []);
 
+  const lenisRef = useRef<Lenis | null>(null);
+
   // Initialize Lenis smooth scroll
   useEffect(() => {
     const lenis = new Lenis({
@@ -82,6 +87,7 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
     });
+    lenisRef.current = lenis;
 
     function raf(time: number) {
       lenis.raf(time);
@@ -92,10 +98,39 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
     return () => {
       lenis.destroy();
+      lenisRef.current = null;
     };
   }, []);
 
-  // Keyboard Shortcuts (N for Easter Egg, C for Confetti, Esc to close modals)
+  // Lock body scroll and Lenis when video is playing
+  useEffect(() => {
+    const preventScroll = (e: Event) => {
+      e.preventDefault();
+      e.stopPropagation();
+    };
+
+    if (isPlayingVideo) {
+      lenisRef.current?.stop();
+      document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
+      window.addEventListener('wheel', preventScroll, { passive: false });
+      window.addEventListener('touchmove', preventScroll, { passive: false });
+    } else {
+      lenisRef.current?.start();
+      document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
+    }
+
+    return () => {
+      lenisRef.current?.start();
+      document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
+      window.removeEventListener('wheel', preventScroll);
+      window.removeEventListener('touchmove', preventScroll);
+    };
+  }, [isPlayingVideo]);
+
+  // Keyboard Shortcuts (N for Easter Egg, C for Confetti, Esc to close modals/video)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
@@ -113,6 +148,7 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         setActiveGalleryPhoto(null);
         setActiveLetter(null);
         setIsEasterEggOpen(false);
+        setIsPlayingVideo(false);
       }
     };
 
@@ -178,6 +214,8 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         setActiveLetter,
         isEasterEggOpen,
         setIsEasterEggOpen,
+        isPlayingVideo,
+        setIsPlayingVideo,
         isMuted,
         toggleMute,
         triggerConfetti

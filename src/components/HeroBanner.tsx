@@ -1,31 +1,45 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Play, Info, Volume2, VolumeX } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Play, Volume2, VolumeX, X, ArrowLeft } from 'lucide-react';
 import { useStory } from '../context/StoryContext';
+import thumbnailImg from '../assets/thumbnail.jpg';
+import introVideo from '../assets/intro.mp4';
 
 export const HeroBanner: React.FC = () => {
-  const { storyData, setActiveEpisode, progress, isMuted, toggleMute } = useStory();
-  const { hero, episodes } = storyData;
+  const { storyData, isMuted, toggleMute, isPlayingVideo, setIsPlayingVideo } = useStory();
+  const { hero } = storyData;
+
+  const [showControls, setShowControls] = useState<boolean>(true);
+  const [mouseActivity, setMouseActivity] = useState<number>(0);
+
+  const handleMouseMove = () => {
+    setShowControls(true);
+    setMouseActivity(Date.now());
+  };
+
+  useEffect(() => {
+    if (!isPlayingVideo) return;
+
+    const timer = setTimeout(() => {
+      setShowControls(false);
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, [isPlayingVideo, mouseActivity]);
 
   const handlePlayLatest = () => {
-    const unwatched = episodes.find((ep) => !progress.completedEpisodes.includes(ep.id));
-    const target = unwatched || episodes[0];
-    setActiveEpisode(target);
+    setShowControls(true);
+    setIsPlayingVideo(true);
   };
 
-  const handleMoreInfo = () => {
-    const section = document.getElementById('episodes');
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  const heroImageSrc = thumbnailImg || hero.heroImage;
 
   return (
     <section id="hero" className="relative min-h-[90vh] md:min-h-screen flex items-center justify-start bg-black text-white pt-16 overflow-hidden select-none">
       {/* Background Hero Image with Vignette */}
       <div 
         className="absolute inset-0 bg-cover bg-center filter brightness-70 scale-105 transition-all duration-1000"
-        style={{ backgroundImage: `url('${hero.heroImage}')` }}
+        style={{ backgroundImage: `url('${heroImageSrc}')` }}
       />
 
       {/* Netflix Multi-layer Gradient Masking (Left, Bottom, Radial) */}
@@ -119,14 +133,6 @@ export const HeroBanner: React.FC = () => {
             <Play className="w-6 h-6 fill-black text-black" />
             <span>Play</span>
           </button>
-
-          <button
-            onClick={handleMoreInfo}
-            className="flex items-center space-x-3 bg-neutral-600/70 hover:bg-neutral-600/50 text-white font-bold text-base md:text-lg px-8 py-3 rounded-md transition-colors cursor-pointer backdrop-blur-md active:scale-95"
-          >
-            <Info className="w-6 h-6" />
-            <span>More Info</span>
-          </button>
         </motion.div>
       </div>
 
@@ -143,6 +149,55 @@ export const HeroBanner: React.FC = () => {
           G | Gratitude for Mom & Dad
         </div>
       </div>
+
+      {/* Fullscreen Video Player Modal */}
+      <AnimatePresence>
+        {isPlayingVideo && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.98 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.98 }}
+            transition={{ duration: 0.3 }}
+            onMouseMove={handleMouseMove}
+            className={`fixed inset-0 z-50 bg-black flex flex-col items-center justify-center select-none ${
+              !showControls ? 'cursor-none' : ''
+            }`}
+          >
+            {/* Top Navigation Control Bar */}
+            <div
+              className={`absolute top-0 left-0 right-0 z-10 p-6 flex items-center justify-between bg-gradient-to-b from-black/80 via-black/40 to-transparent transition-opacity duration-500 ${
+                showControls ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+              }`}
+            >
+              <button
+                onClick={() => setIsPlayingVideo(false)}
+                className="flex items-center space-x-2 text-neutral-300 hover:text-white bg-black/50 hover:bg-black/80 px-4 py-2 rounded-lg border border-neutral-700 transition-colors cursor-pointer backdrop-blur-md"
+              >
+                <ArrowLeft className="w-5 h-5" />
+                <span className="font-semibold text-sm">Back to Browse</span>
+              </button>
+
+              <button
+                onClick={() => setIsPlayingVideo(false)}
+                className="p-2.5 rounded-full text-neutral-300 hover:text-white bg-black/50 hover:bg-black/80 border border-neutral-700 transition-colors cursor-pointer backdrop-blur-md"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+
+            {/* Video Player */}
+            <video
+              src={introVideo}
+              autoPlay
+              controls
+              playsInline
+              onMouseMove={handleMouseMove}
+              onEnded={() => setIsPlayingVideo(false)}
+              className="w-full h-full object-contain"
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };

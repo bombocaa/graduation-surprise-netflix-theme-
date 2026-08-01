@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, CheckCircle2, ArrowRight, Clock, Calendar, Quote, Sparkles } from 'lucide-react';
 import { useStory } from '../context/StoryContext';
+import thumbnailImg from '../assets/thumbnail.jpg';
 
 export const EpisodeModal: React.FC = () => {
   const { activeEpisode, setActiveEpisode, completeEpisode, progress, storyData } = useStory();
@@ -43,7 +44,7 @@ export const EpisodeModal: React.FC = () => {
           {/* Modal Hero Banner Header */}
           <div className="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden bg-neutral-900">
             <img
-              src={activeEpisode.heroImage}
+              src={thumbnailImg || activeEpisode.heroImage}
               alt={activeEpisode.title}
               className="w-full h-full object-cover"
             />

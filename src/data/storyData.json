@@ -6,7 +6,7 @@
     "graduationDate": "Class of 2026",
     "degree": "Bachelor of Science in Information Technology - Mobile and Web Applications (BSIT-MWA)",
     "university": "State University of Technology",
-    "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=85"
+    "heroImage": "/thumbnail.jpg"
   },
   "welcome": {
     "title": "Welcome, Mom and Dad",
@@ -23,8 +23,8 @@
       "duration": "14m",
       "year": "Year 1",
       "matchScore": "99% Match",
-      "thumbnail": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80",
-      "heroImage": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1920&q=85",
+      "thumbnail": "/thumbnail.jpg",
+      "heroImage": "/thumbnail.jpg",
       "summary": "Stepping onto the university campus for the first time—setting up the dorm room, attending freshman orientation, and writing the first 'Hello World' in BSIT-MWA lab.",
       "fullStory": [
         "Freshman year began with the excitement and nerves of stepping into a massive university campus. Unpacking bags in the dorm room, seeing the lecture halls, and holding my schedule felt like entering a brand new world.",

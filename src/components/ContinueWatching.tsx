@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Play, CheckCircle2, Clock, Sparkles } from 'lucide-react';
 import { useStory } from '../context/StoryContext';
 import type { Episode } from '../data/types';
+import thumbnailImg from '../assets/thumbnail.jpg';
 
 export const ContinueWatching: React.FC = () => {
   const { storyData, setActiveEpisode, progress } = useStory();
@@ -57,7 +58,7 @@ export const ContinueWatching: React.FC = () => {
               {/* Thumbnail Container */}
               <div className="relative aspect-video w-full overflow-hidden bg-neutral-950">
                 <img
-                  src={ep.thumbnail}
+                  src={thumbnailImg || ep.thumbnail}
                   alt={ep.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
