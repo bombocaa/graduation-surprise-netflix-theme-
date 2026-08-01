@@ -37,7 +37,7 @@ export const HeroBanner: React.FC = () => {
   return (
     <section id="hero" className="relative min-h-[90vh] md:min-h-screen flex items-center justify-start bg-black text-white pt-16 overflow-hidden select-none">
       {/* Background Hero Image with Vignette */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center filter brightness-70 scale-105 transition-all duration-1000"
         style={{ backgroundImage: `url('${heroImageSrc}')` }}
       />
@@ -144,7 +144,7 @@ export const HeroBanner: React.FC = () => {
         >
           {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
         </button>
-        
+
         <div className="bg-neutral-900/80 border-l-4 border-white px-4 py-1.5 text-xs font-semibold text-neutral-200 backdrop-blur-md pr-6">
           G | Gratitude for Mom & Dad
         </div>
@@ -159,15 +159,13 @@ export const HeroBanner: React.FC = () => {
             exit={{ opacity: 0, scale: 0.98 }}
             transition={{ duration: 0.3 }}
             onMouseMove={handleMouseMove}
-            className={`fixed inset-0 z-50 bg-black flex flex-col items-center justify-center select-none ${
-              !showControls ? 'cursor-none' : ''
-            }`}
+            className={`fixed inset-0 z-50 bg-black flex flex-col items-center justify-center select-none ${!showControls ? 'cursor-none' : ''
+              }`}
           >
             {/* Top Navigation Control Bar */}
             <div
-              className={`absolute top-0 left-0 right-0 z-10 p-6 flex items-center justify-between bg-gradient-to-b from-black/80 via-black/40 to-transparent transition-opacity duration-500 ${
-                showControls ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-              }`}
+              className={`absolute top-0 left-0 right-0 z-10 p-6 flex items-center justify-between bg-gradient-to-b from-black/80 via-black/40 to-transparent transition-opacity duration-500 ${showControls ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+                }`}
             >
               <button
                 onClick={() => setIsPlayingVideo(false)}
