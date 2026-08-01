@@ -190,17 +190,27 @@ export const HeroBanner: React.FC = () => {
               </button>
             </div>
 
-            {/* Video Player */}
-            <video
-              src={currentVideoSrc}
-              autoPlay
-              controls
-              playsInline
-              onMouseMove={handleMouseMove}
-              onError={handleVideoError}
-              onEnded={() => setIsPlayingVideo(false)}
-              className="w-full h-full object-contain"
-            />
+            {/* Video Player (YouTube or Native HTML5) */}
+            {hero.youtubeId ? (
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${hero.youtubeId}?autoplay=1&rel=0&modestbranding=1&enablejsapi=1`}
+                title="Graduation Surprise Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full border-0"
+              />
+            ) : (
+              <video
+                src={currentVideoSrc}
+                autoPlay
+                controls
+                playsInline
+                onMouseMove={handleMouseMove}
+                onError={handleVideoError}
+                onEnded={() => setIsPlayingVideo(false)}
+                className="w-full h-full object-contain"
+              />
+            )}
           </motion.div>
         )}
       </AnimatePresence>

@@ -98,6 +98,7 @@ export interface StoryData {
     university: string;
     heroImage: string;
     heroVideo?: string;
+    youtubeId?: string;
   };
   welcome: {
     title: string;
