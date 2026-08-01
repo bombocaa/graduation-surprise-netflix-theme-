@@ -11,6 +11,13 @@ export const HeroBanner: React.FC = () => {
 
   const [showControls, setShowControls] = useState<boolean>(true);
   const [mouseActivity, setMouseActivity] = useState<number>(0);
+  const [currentVideoSrc, setCurrentVideoSrc] = useState<string>('/janus-video.mp4');
+
+  const handleVideoError = () => {
+    if (currentVideoSrc !== introVideo) {
+      setCurrentVideoSrc(introVideo);
+    }
+  };
 
   const handleMouseMove = () => {
     setShowControls(true);
@@ -185,11 +192,12 @@ export const HeroBanner: React.FC = () => {
 
             {/* Video Player */}
             <video
-              src={introVideo}
+              src={currentVideoSrc}
               autoPlay
               controls
               playsInline
               onMouseMove={handleMouseMove}
+              onError={handleVideoError}
               onEnded={() => setIsPlayingVideo(false)}
               className="w-full h-full object-contain"
             />

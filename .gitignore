@@ -26,5 +26,7 @@ dist-ssr
 # Large media files
 *.mp4
 !src/assets/intro.mp4
+!public/janus-video.mp4
+
 
 
